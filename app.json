@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Techno",
+    "slug": "Techno-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/a.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/a.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    echo "# app" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/Thanusha1226/app.git
+    git push -u origin main      "supportsTablet": true,
+      "bundleIdentifier": "com.Thanusha.Techno"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/a.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.Thanusha.Techno"
+    },
+    "web": {
+      "favicon": "./assets/a.png"
+    },
+    "description": "https://forums.expo.dev/t/react-natrive-webview-is-deprecated/64699?u=wodin"
+  }
+}
